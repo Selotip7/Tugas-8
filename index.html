@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css" />
+    <script defer src="jav.js"></script>
+  </head>
+
+  <body>
+    <div class="login-cont">
+      <form name="myForm" id="form" action="/">
+        <h2>Login</h2>
+
+        <div class="login-input">
+          <input id="nama" name="fname" type="text" placeholder="Nama" />
+          <div class="error"></div>
+        </div>
+
+        <div class="login-input">
+          <input type="text" placeholder="NIM" id="number" name="number" />
+        </div>
+
+        <div class="login-input">
+          <input class="email" id="email" type="email" placeholder="Email" />
+          <div class="error"></div>
+        </div>
+
+        <div class="login-input">
+          <select class="r" name="sel" id="gen" >
+            <option disabled selected hidden>Jenis Kelamin</option>
+            <option class="g" value="Pria">Pria</option>
+            <option class="g" value="Wanita">Wanita</option>
+          </select>
+        </div>
+        <div class="login-input">
+          <input id="tel" type="tel" placeholder="No.Telpon" />
+          <div class="error"></div>
+        </div>
+        <div class="login-input">
+          <textarea
+            id="alamat"
+            name="alamat"
+            placeholder="Alamat"
+          ></textarea>
+          <div class="error"></div>
+        </div>
+
+        <button type="submit" class="btnv">Daftar</button>
+        <button type="reset" class="btnw">Reset</button>
+      </form>
+    </div>
+  </body>
+</html>
